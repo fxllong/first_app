@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+#require 'rpc_service'
+require File.expand_path('../rpc_service', __FILE__)
+
+Demo::RpcService.new(:Port => 9999).start
